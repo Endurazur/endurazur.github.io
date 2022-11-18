@@ -1,0 +1,29 @@
+img{
+    height: 48px;
+}
+
+body{
+    background-color: #151515;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 3px solid #222327;
+    justify-content: space-between;
+}
+
+ul, li{
+    color: aliceblue;
+    font-size: larger;
+    list-style-type: none;
+}
