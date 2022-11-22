@@ -24,6 +24,38 @@ nav{
 
 ul, li{
     color: aliceblue;
-    font-size: larger;
+    font-size: x-large;
     list-style-type: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #222327;
+}
+
+.search{
+    border-radius: 50px;
+    border: #222327 2px solid;
+    color: white;
+}
+
+input{
+    background: none;
+    padding: 10px 14px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.fa-magnifying-glass{
+    padding-right: 14px;
 }
