@@ -1,4 +1,6 @@
-img{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.logo{
     height: 48px;
 }
 
@@ -8,6 +10,7 @@ body{
 
 *{
     padding: 0px;
+	font-family: 'Barlow',sans-serif;
     margin: 0px;
 }
 
@@ -18,7 +21,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 3px solid #222327;
+    border-bottom: 3px solid #232323;
     justify-content: space-between;
 }
 
@@ -32,15 +35,18 @@ ul, li{
 }
 
 footer{
+    margin-top: 20px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    border-top: 3px solid #222327;
+    border-top: 3px solid #232323;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 .search{
     border-radius: 50px;
-    border: #222327 2px solid;
+    border: #232323 2px solid;
     color: white;
 }
 
@@ -58,4 +64,62 @@ input::placeholder{
 
 .fa-magnifying-glass{
     padding-right: 14px;
+}
+
+.right{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.right{
+    /* display: none; */
+}
+
+.bars{
+	color: white;
+	margin-left: 20px;
+    font-size: 22px;
+}
+
+h1{
+	color: white;
+    margin-top: 10px;
+	font-size: 22px;
+	padding-left: 5%;
+}
+
+.container{
+	color: white;
+	margin-top: 5px;
+	padding-left: 5%;
+	padding-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)}
+
+h4{
+    font-size: 15px;
+    color: #888888;
+}
+
+.r-img{
+	border-radius: 8px;
+	width: 350px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.content-contain{
+    margin-top: 12px;
+}
+
+.content-contain:first-of-type{
+    margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
